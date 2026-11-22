@@ -1,38 +1,51 @@
 # Korpolairud News
 
-Official website project of Korpolairud.
+Public source repository for the Korpolairud News website.
 
-## Developer
+## Developer Attribution
 
-**YOGI PRAYOGI**
-
-Role: Founder & Lead Web Developer
+**YOGI PRAYOGI**  
+Role stated for this project: Founder & Lead Web Developer  
 GitHub: [@Yogiprayogi3003](https://github.com/Yogiprayogi3003)
 
 ## Technology
 
 - PHP Native
 - MySQL / MariaDB
-- HTML, CSS and JavaScript
+- HTML, CSS, and JavaScript
 - Nginx / OpenLiteSpeed
 
-## Project Structure
+## Repository Structure
 
-- `app/` - Application configuration and logic
-- `public/` - Public website document root
-- `documentation/` - Technical documentation
+```text
+.
+├── .gitignore
+├── .htaccess
+├── NOTICE.md
+├── README.md
+└── public/
+    ├── .htaccess
+    ├── api/
+    │   └── bmkg-earthquake.php
+    ├── assets/
+    │   ├── css/
+    │   ├── images/
+    │   └── js/
+    ├── index.php
+    └── partials/
+        └── news-grid.php
+```
+
+This tree describes the files included in this public repository; it is not a complete map of the production server.
 
 ## Security
 
-Production credentials, database dumps,
-private keys and server-specific configuration
-must never be committed.
+Do not commit production credentials, database dumps, private keys, private user data, server-specific configuration, or backup archives. Review every change before pushing.
 
-## Copyright
+## Copyright and Rights
 
-Copyright © 2026 YOGI PRAYOGI.
+Copyright notice: © 2026 YOGI PRAYOGI.
 
-Developer attribution does not by itself
-transfer institutional or third-party rights.
-No open-source license is granted unless
-a separate license is explicitly provided.
+This attribution records the developer information supplied for this project. It does not, by itself, determine or transfer copyright ownership. Institutional agreements, employment or service contracts, third-party licenses, and applicable law may affect ownership and publication rights.
+
+No open-source license is granted by this repository unless a separate license is added.
