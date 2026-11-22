@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+ <defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+   <stop stop-color="#102f52"/>
+   <stop offset="1" stop-color="#06172b"/>
+  </linearGradient>
+ </defs>
+ <rect width="1280" height="720" fill="url(#bg)"/>
+ <circle cx="640" cy="300" r="82" fill="#c6a45d"/>
+ <path d="M615 252 L615 348 L694 300 Z" fill="#102f52"/>
+ <text x="640" y="465" fill="#fff" font-family="Arial,sans-serif"
+       font-size="38" font-weight="bold" text-anchor="middle">KORPOLAIRUD</text>
+ <text x="640" y="515" fill="#d8c18b" font-family="Arial,sans-serif"
+       font-size="21" letter-spacing="5" text-anchor="middle">BAHARKAM POLRI</text>
+</svg>
